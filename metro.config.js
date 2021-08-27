@@ -4,6 +4,7 @@
  *
  * @format
  */
+sourceExts: ['jsx', 'js', 'ts', 'tsx', 'json'],
 
 module.exports = {
   transformer: {
