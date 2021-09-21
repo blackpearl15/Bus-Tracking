@@ -4,7 +4,7 @@ import MapView, { PROVIDER_GOOGLE, Marker } from 'react-native-maps';
 import Constants from 'expo-constants';
 import * as Location from 'expo-location';
 import { Icon } from 'react-native-elements';
-import SendLoc from '../Server/SendLoc';
+import SendLoc from '../screens/SendLoc';
 
 export default function Home() {
   const [location, setLocation] = useState(null);
